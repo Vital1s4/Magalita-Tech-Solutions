@@ -1,27 +1,16 @@
-/* ------------------------------------------------------------------- */
-/* 1. CORE BODY & BACKGROUND SETUP (STATIC IMAGE)                      */
-/* ------------------------------------------------------------------- */
 
 body {
     margin: 0;
     
-    /* REMOVED overflow: hidden; and perspective */
-    
-    /* --- FONT/SIZE APPLY TO ALL TEXT --- */
+   
     font-family: 'Times New Roman', Times, serif; 
     font-size: 13.5pt; 
-    color: #fff; /* White text for readability */
-
-    /* STATIC BACKGROUND IMAGE */
+    color: #fff; 
     background: url('https://thumbs.dreamstime.com/b/binary-code-abstract-technology-background-big-data-coding-hacker-concept-computer-technologies-flowing-number-one-zero-134686376.jpg') no-repeat center center/cover;
     background-attachment: fixed; /* Optional: Makes the background stay put as content scrolls */
 }
 
-/* REMOVED #wrapper, #background-3d, @keyframes, and all transform/perspective rules */
 
-/* ------------------------------------------------------------------- */
-/* 2. HEADER & NAVIGATION (INCLUDING NEW LOGO)                         */
-/* ------------------------------------------------------------------- */
 
 header {
     display: flex;
@@ -30,7 +19,7 @@ header {
     background: rgba(0,0,0,0.6);
 }
 
-/* Styling for the new logo image */
+
 header img { 
     height: 40px; 
     margin-right: 20px; 
@@ -43,7 +32,7 @@ nav a {
     font-weight: bold;
     padding-bottom: 5px; 
 }
-/* Active page style for highlighting the current page */
+
 nav a.active { 
     color: #00aced; 
     border-bottom: 3px solid #00aced; /* Visual indicator */
@@ -197,4 +186,5 @@ footer {
     padding: 20px;
     background: rgba(0,0,0,0.7);
     font-size: 14px;
+
 }
