@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; font-src 'self' https://cdnjs.cloudflare.com; img-src 'self' https://us.123rf.com https://encrypted-tbn0.gstatic.com https://thumbs.dreamstime.com; script-src 'self';">
+
   <title>Contact - Magalita Tech Solutions</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
- <link rel= "icon" href = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj1apVx94Kou9ZAGkE44TLXHd-C8w16JdjAQ&s" type="image/png">
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj1apVx94Kou9ZAGkE44TLXHd-C8w16JdjAQ&s" type="image/png">
 </head>
 <body>
 <header>
@@ -23,7 +25,7 @@
   <h1>Contact Peter Vitalis</h1>
   <p>Let’s bring your vision to life. Whether you’re ready to start a project or just exploring ideas, I'd love to hear from you. Reach out via email, WhatsApp, or the contact form — and expect a quick, friendly response. Collaboration starts with a conversation.</p>
 
-  <form action="mailto:vitalispeter97@gmail.com" method="post" enctype="text/plain" class="contact-form">
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br><br>
 
@@ -45,13 +47,13 @@
       <i class="fas fa-envelope"></i> Email:<a href="mailto:vitalispeter97@gmail.com" style="color: #fff; text-decoration: underline;">vitalispeter97@gmail.com</a>
     </p>
     <p>
-      <i class="fab fa-whatsapp" style="color: #25D366;"></i> WhatsApp: <a href="https://wa.me/254741638995" target="_blank" style="color: #fff; text-decoration: underline;">+254 741 638 995</a>
+      <i class="fab fa-whatsapp" style="color: #25D366;"></i> WhatsApp: <a href="https://wa.me/254741638995" target="_blank" rel="noopener noreferrer" style="color: #fff; text-decoration: underline;">+254 741 638 995</a>
     </p>
     <p>
       <i class="fas fa-map-marker-alt"></i> Location: Nairobi, Kenya
     </p>
     
-    <a href="https://calendly.com/yourlink" target="_blank" style="color: #00aced; text-decoration: underline;">
+    <a href="https://calendly.com/yourlink" target="_blank" rel="noopener noreferrer" style="color: #00aced; text-decoration: underline;">
         <i class="far fa-calendar-alt"></i> Schedule a free 15-minute Discovery Call
     </a>
   </div>
